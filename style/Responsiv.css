@@ -1,0 +1,280 @@
+@media (max-width:1328px) {
+    #headImgButtom {
+        width: 420px;
+    }    
+    .headBox {
+        padding: 0.8rem;
+    }
+    .headBox div h1 {
+        font-size: 1.7rem;
+    }
+    .headBox div h2 {
+        font-size: 1.3em;
+        padding: 0.5rem;
+    }
+    .advantage {
+        grid-template-columns: repeat(2, auto);
+        gap: 3rem;
+    }
+    .advantageDiv {
+        width: 370px;
+    }
+    .country {
+        gap: 3rem;
+    }
+    .order {
+        grid-template-columns: repeat(2, auto);
+    }
+    .footerLogo h1 {
+        font-size: 7rem;
+    }
+    .footerLogo i {
+        font-size: 6.1rem;
+    }
+}
+
+@media (min-width:767px) and (max-width:1023px) {
+    #headImgButtom {
+        width: 420px;
+    }
+    .headBox {
+        width: 60%;
+        padding: 0.5rem;
+    }
+    .headBox div h1 {
+        font-size: 1.6rem;
+    }
+    .headBox div h2 {
+        font-size: 1.1em;
+        padding: 0.4rem;
+    }
+    #advantage {
+        margin-bottom: 1rem;
+    }
+    .advantage {
+        gap: 1rem;
+        padding: 1rem;
+    }
+    .advantageDiv {
+        width: 310px;
+    }
+    .country {
+        gap: 2rem;
+    }
+    .countryImg img {
+        width: 80px;
+        height: 52px;
+    }
+    .order {
+        gap: 1.5rem;
+    }
+    .orderDiv {
+        width: 310px;
+        padding: 1rem 0.6rem 1rem 0.6rem;
+    }
+    .connection {
+        grid-template-columns: repeat(1, auto);
+    }
+    .footerLogo h1 {
+        font-size: 6.5rem;
+    }
+    .footerLogo i {
+        font-size: 5.7rem;
+    }
+}
+
+@media (max-width:767px) {
+    #hamburgerMenu {
+        display: block;
+    }
+    #hamburgerList {
+        border-bottom: 2px solid #5B9A8B;
+    }
+    .loginBar {
+        display: none;
+    }
+    .navBar {
+        display: none;
+    }
+    .head {
+        flex-direction: column;
+    }
+    #headImgButtom {
+        display: none;
+    }
+    #headImgTop {
+        display: block;
+        margin-bottom: 1.2rem;
+    }
+    .headBox {
+        margin-bottom: 1.2rem;
+        width: 100%;
+    }
+    .headBox div h1 {
+        font-size: 1.7rem;
+    }
+    .headBox div h2 {
+        font-size: 1.4em;
+    }
+    .advantageBar {
+        margin-top: 4.2rem;
+    }
+    .advantage {
+        grid-template-columns: repeat(1, auto);
+    }
+    .advantageDiv {
+        width: 320px;
+    }
+    .country {
+        grid-template-columns: repeat(3, auto);
+        gap: 2rem;
+    }
+    .order {
+        grid-template-columns: repeat(1, auto);
+    }
+    .orderDiv {
+        width: 340px;
+    }
+    .connection {
+        grid-template-columns: repeat(1, auto);
+    }
+    .connectionDiv i {
+        font-size: xx-large;
+    }
+    #download {
+        font-size: xx-large;
+    }
+    .connectionDiv {
+        font-size: small;
+    }
+    .footerLogo {
+        display: none;
+    }
+    .footerContact h1 {
+        font-size: 1.7rem;
+    }
+    .footerAbout h1 {
+        font-size: 1.7rem;
+    }
+    .footerContact img {
+        width: 21px;
+    }
+    .footerAbout img {
+        width: 21px;
+    }
+    #up-btn {
+        bottom: 5px;
+        left: 5px;
+    }
+    #up-btn img {
+        width: 50px;
+    }
+}
+
+@media (min-width:767px) and (max-width:4000px) {
+    #hamburgerList {
+        display: none;
+    }
+}
+
+@media (max-width:425px) {
+    #headImgTop {
+        margin-bottom: 2rem;
+        width: 240px;
+    }
+    .headBox {
+        padding: 0.2rem;
+        margin-bottom: 0.4rem;
+        width: 100%;
+    }
+    .headBox div h1 {
+        font-size: 1.4rem;
+    }
+    .headBox div h2 {
+        font-size: 1rem;
+    }
+    .advantage {
+        gap: 2rem;
+        padding: 1.5rem;
+    }
+    .advantageDiv {
+        width: 230px;
+    }
+    #advantage {
+        font-size: 0.8rem;
+        margin-bottom: 1rem;
+    }
+    .advantageDiv div i {
+        font-size: 2.4rem;
+    }
+    .advantageDiv div h1 {
+        font-size: 1.2rem;
+    }
+    .advantageDiv div h3 {
+        font-size: 1rem;
+    }
+    .country {
+        grid-template-columns: repeat(2, auto);
+        gap: 3rem;
+    }
+    .countryImg img {
+        width: 75px;
+        height: 48px;
+    }
+    .orderDiv {
+        padding: 1.2rem 0.7rem 1.2rem 0.7rem;
+        width: 270px;
+    }
+    .month {
+        padding: 0.7rem;
+    }
+    .price {
+        padding: 0.7rem;
+    }
+    .property ul ol {
+        padding: 0.8rem;
+    }
+    .connection {
+        gap: 2rem;
+    }
+    .connectionDiv {
+        font-size: 0.7rem;
+    }
+    .footerBar {
+        padding-top: 0.7rem;
+    }
+    .footerContact {
+        padding: 1.2rem;
+    }
+    .footerAbout {
+        padding: 1.2rem;
+    }
+    .footerEnd {
+        font-size: small;
+    }
+}
+
+@media (max-width:375px) {
+    .advantage {
+        padding: 0px 0px 2rem 0px;
+    }
+    .connectionDiv {
+        font-size: 0.6rem;
+    }
+    .connectionDiv i {
+        font-size: 2.4rem;
+    }
+    #download {
+        font-size: 2rem;
+    }
+    .order{
+        padding: 2rem 0 0 0 ;
+    }
+    #up-btn {
+        bottom: 2px;
+        left: 2px;
+    }
+    .footerEnd {
+        font-size: 0.6rem;
+    }
+}
